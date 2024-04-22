@@ -155,7 +155,7 @@ Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Me
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hola Soy Iván",
+  title: "Hi all I'm Saad" ,
   subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
