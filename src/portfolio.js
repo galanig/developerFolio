@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Iván Moreno",
+  username: "Ivan Moreno",
   title: "Hola a todos, Mi nombre es Iván",
   subTitle: emoji(
-    " 🚀 having an experience of bjs / Nodejs / Rool libraries and frameworks."
+    " Soy Técnico Superior en ASIR 🚀 Teniendo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "¿Que es lo que hago?",
+  subTitle: "En mis pŕacticas he trabajado como Administrador de Sistemas de TI, sin embargo, me gustaría desarrollar mis habilidades relaccionadas con las bases de datos y en DevOps. De ahí éste trabajo",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Habilidades con lenguaje SQL."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Configuración de servidores. DHCP, DNS, WEB, Correo, FTP, mensajeria..."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integración en AWS de sitio Web."
     )
   ],
 
@@ -153,16 +153,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Adimisntración de sistemas", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "BBDD",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Seguridad en redes",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Intergación Continua / Despliegue Continuo",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Programación",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -360,7 +368,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contacto ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
