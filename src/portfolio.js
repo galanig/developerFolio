@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ivan Moreno",
+  username: "Victor Alonso",
   title: "Hola a todos, Mi nombre es Iván",
   subTitle: emoji(
     " Soy Técnico Superior en ASIR 🚀 Teniendo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
