@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Iván Moreno",
-  title: "Hola a todos, Esto es una prueba de integración continua",
+  username: "Ivan Moreno",
+  title: "Hola a todos, Mi nombre es Iván",
   subTitle: emoji(
-    " Soy Técnico Superior en ASIR 🚀 Teniendo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
+    " Soy Técnico Superior en ASIR 🚀 Tengo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -126,24 +126,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Centro de estudios profesionales CCC",
+      logo: require("./assets/images/ccc.png"),
+      subHeader: "Grado superior en Administración de sistemas informáticos en red",
+      duration: "Septiembre 2022 - Junio 2024",
+      desc: "Nota media de Sobresaliente",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
+   
   ]
 };
 
@@ -182,29 +173,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Top Team Leader",
+      company: "Bosch",
+      companylogo: require("./assets/images/bosch.png"),
+      date: "Junio 2018 – Actualidad",
+      desc: "Durante estos años he utilizado tecnologias como Microsoft 365 y la herramienta SAP encargandome de asignar cargas de trabajo a los operarios, atender incidencias de los mismos, control de tiempos del personal a cargo, correo de empresa, inventarios etc...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Administrador de sistemas de TI",
+      company: "Diwiot",
+      companylogo: require("./assets/images/diwi.png"),
+      date: "Abril 2024 – Junio 2024",
+      desc: "Durante mi formación he utilizado tecnologías como Micorsoft 365, procesos de digitalizacion IoT , Windows Server, GPO's, curso sobre Fundamentos de Azure 15h y curso sobre fundamentos Microsoft 20 H"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Agente aeroportuario",
+      company: "Iberia",
+      companylogo: require("./assets/images/iberia.png"),
+      date: "Enero 2015 – Diciembre 2017",
+      desc: ""
     }
   ]
 };
@@ -220,31 +209,24 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "CCC Centro de formación profesional",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ccc.png"),
+      projectName: "",
+      projectDesc: "",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visita la página web",
+          url: "https://www.cursosccc.com/titulos-fp/online/?codigo=AJNZ&utm_term=ccc%20fp&utm_campaign=AJNZ+-+ES_BR_MARCA_AMPLIA&utm_source=adwords&utm_medium=ppc&hsa_acc=2080918641&hsa_cam=16341114642&hsa_grp=130970199062&hsa_ad=654763224879&hsa_src=g&hsa_tgt=kwd-362697374053&hsa_kw=ccc%20fp&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIvO3_-LL5hQMVaGZBAh333QOUEAAYASAAEgKU2vD_BwE"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+    
+      
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -370,9 +352,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contacto ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Si quieres contactar conmigo pongase en contacto con esta dirección",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "ivanprueba@gmail.com"
 };
 
 // Twitter Section
