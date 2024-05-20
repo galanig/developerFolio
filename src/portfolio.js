@@ -26,20 +26,20 @@ const greeting = {
     " Soy Técnico Superior en ASIR 🚀 Tengo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rEtKkyiRGVqrcGdZcgkrGTGx1E-eiNTn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/galanig",
+  linkedin: "https://www.linkedin.com/in/ivan-moreno-galan-/",
+  gmail: "ivanmgalan@gmail.com",
+  gitlab: "https://github.com/galanig",
+  facebook: "https://www.facebook.com",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -236,56 +236,56 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Logros y Certificaciones 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Logoros y certificaciones que he obtenido en estos años !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Microsoft Azure y Microsoft 365 basics",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Cursos sobre fundamentos básicos de MS365 20h y curso sobre principios básicos de Azure 20h",
+      image: require("./assets/images/microsoft.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Certificación",
+          url: "https://drive.google.com/"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Carta de recomendación",
+          url: "https://drive.google.com/"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Más opciones",
+          url: "https://opensource.googleblog.com"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Fundamentos básicos de Big Data",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Curso sobre fundamentos y principios básicos de Big data 25h",
+      image: require("./assets/images/data.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Página de CCC",
+          url: "https://www.cursosccc.com/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Windows Server 2022",
+      subtitle: "Instalación y configuración para producción de Windows Server 2022 Standart editión. Configuración usuarios, grupos, GPO, enrutamiento, acceso remoto, despliegue de software, inicio de apps, entorno usuario etc...",
+      image: require("./assets/images/server.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certificación", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Información",
+          url: "https://www.microsoft.com/es-es/windows-server"
         }
       ]
     }
@@ -298,20 +298,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Si quieres información extra sobre algunos blogs de interés no dudes en echarle un vistazo",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "Gana 200$ y una camiseta del Asistente de Google",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "¿Quieres ganar 200$ y una camiseta del Asistente de Google creando una acción del Asistente de Google en menos de 30 minutos?"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      title: "¿Por qué REACT es mejor?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "React es una biblioteca de JavaScript para crear una interfaz de usuario. Lo mantienen Facebook y una comunidad de desarrolladores individuales y empresas."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -320,17 +320,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "HABLA",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "ME ENCANTA COMPARTIR MI CONOCIMIENTO Y SEGUIR FORMANDOME 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Contacta conmigo a traves de linkedIn",
+      subtitle: "Accede y contacta conmigo. Es un placer poder dedicarte unos minutos.",
+      slides_url: "",
+      event_url: "https://www.linkedin.com/in/ivan-moreno-galan-/"
     }
   ],
   display: true // Set false to hide this section, defaults to true

@@ -39,10 +39,10 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contacta conmigo" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
+                    text="Ver mi CV"
                     newTab={true}
                     href={greeting.resumeLink}
                   />
