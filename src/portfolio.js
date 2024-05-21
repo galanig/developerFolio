@@ -263,7 +263,7 @@ const achievementSection = {
       title: "Fundamentos básicos de Big Data",
       subtitle:
         "Curso sobre fundamentos y principios básicos de Big data 25h",
-      image: require("./assets/images/data.webp"),
+      image: require("./assets/images/data.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
