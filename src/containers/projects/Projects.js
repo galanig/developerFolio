@@ -46,7 +46,6 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Página de CCC</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -59,12 +58,6 @@ export default function Projects() {
               );
             })}
           </div>
-          <Button
-            //text={""}
-            //className="project-button"
-            //href={socialMediaLinks.github}
-            //newTab={true}
-          />
         </div>
       </Suspense>
     );
