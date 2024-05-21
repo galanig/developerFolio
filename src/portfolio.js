@@ -23,7 +23,7 @@ const greeting = {
   username: "Ivan Moreno",
   title: "Hola a todos, Mi nombre es Iván",
   subTitle: emoji(
-    " Soy Técnico Superior en ASIR 🚀 Tengo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
+    " Soy Técnico Superior en ASIR 🚀. Tengo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1rEtKkyiRGVqrcGdZcgkrGTGx1E-eiNTn/view?usp=sharing", // Set to empty to hide the button
@@ -53,6 +53,9 @@ const skillsSection = {
   skills: [
     emoji(
       "⚡ Habilidades con lenguaje SQL."
+    ),
+    emoji(
+      "⚡ Instalación y configuración de Windows Server 2022"
     ),
     emoji("⚡ Configuración de servidores. DHCP, DNS, WEB, Correo, FTP, mensajeria..."),
     emoji(
@@ -162,6 +165,10 @@ const techStack = {
     {
       Stack: "Programación",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "Configuración servidores",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -186,7 +193,7 @@ const workExperiences = {
       company: "Diwiot",
       companylogo: require("./assets/images/diwi.png"),
       date: "Abril 2024 – Junio 2024",
-      desc: "Durante mi formación he utilizado tecnologías como Micorsoft 365, procesos de digitalizacion IoT , Windows Server, GPO's, curso sobre Fundamentos de Azure 15h y curso sobre fundamentos Microsoft 20 H"
+      desc: "Durante mi formación he utilizado tecnologías como Micorsoft 365, procesos de digitalizacion IoT , Windows Server 2022, GPO's, curso sobre Fundamentos de Azure 20h y curso sobre fundamentos Microsoft 20 H"
     },
     {
       role: "Agente aeroportuario",
@@ -224,10 +231,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-    
-      
-    }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -249,17 +253,10 @@ const achievementSection = {
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certificación",
-          url: "https://drive.google.com/"
-        },
-        {
           name: "Carta de recomendación",
-          url: "https://drive.google.com/"
-        },
-        {
-          name: "Más opciones",
-          url: "https://opensource.googleblog.com"
+          url: "https://drive.google.com/file/d/1niPRZvb8ZU6HeurIMDm8FPmF950p7A-V/view?usp=sharing"
         }
+       
       ]
     },
     {
@@ -282,7 +279,6 @@ const achievementSection = {
       image: require("./assets/images/server.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certificación", url: ""},
         {
           name: "Información",
           url: "https://www.microsoft.com/es-es/windows-server"
@@ -346,22 +342,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contacto ☎️"),
   subtitle:
     "Si quieres contactar conmigo pongase en contacto con esta dirección",
-  number: "+92-0000000000",
-  email_address: "ivanprueba@gmail.com"
+  number: "+34 645403343",
+  email_address: "ivanmgalan@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

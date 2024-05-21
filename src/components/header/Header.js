@@ -51,7 +51,7 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Página de CCC</a>
+              <a href="#opensource">CCC Centro de formación profesional</a>
             </li>
           )}
           {viewAchievement && (
