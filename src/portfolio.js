@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Ivan Moreno",
-  title: "Hola a todos, tfg prueba ci/cd",
+  title: "Hola a todos, Mi nombre es Ivan",
   subTitle: emoji(
     " Soy Técnico Superior en ASIR 🚀. Tengo grandes conociemientos sobre sistemas, redes, BBDD y servidores"
   ),
